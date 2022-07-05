@@ -1,6 +1,8 @@
 #include "main.h"
 /*
- * main - printing alphabets 10x
+ * print_alphabet_x10 - prints alphabets 10
+ *
+ * Discription - printing alphabets 10x
  *
  * retuen: void
  */
