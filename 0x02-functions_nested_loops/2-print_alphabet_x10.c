@@ -4,22 +4,20 @@
  *
  * retuen: void
  */
-int print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
-	char alphabet_count = 0;
-	char ch;
-	while(alpha_count < 10)
-{
-	ch = 'a';
+	int alphabet_count = 0;
 
-}
-        while (ch <= 'z')
-{
-	_putchar(ch);
-	ch++
-}
-        alphabet_count++;
-	_putchar('\n');
-}
+	while (alphabet_count < 10)
+	{
+		char ch = 'a';
 
-
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		alphabet_count++;
+		_putchar('\n');
+	}
+}
