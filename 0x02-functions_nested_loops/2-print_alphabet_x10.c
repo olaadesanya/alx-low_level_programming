@@ -4,7 +4,7 @@
  *
  * retuen: void
  */
-int print_alphabet(void)
+int print_alphabet_x10(void)
 {
 	char alphabet_count = 0;
 	char ch;
