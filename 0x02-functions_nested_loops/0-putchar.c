@@ -2,7 +2,7 @@
 /*
  * this prints a putchar
  **/
-putchar()
+int putchar()
 {
 
 putchar();
