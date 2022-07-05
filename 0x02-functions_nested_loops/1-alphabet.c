@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * main - prints Alphabets from a to z
+ * print_alphabet - print alphabet of letters
  *
- * Return:  void.
+ * Return: void
  */
+
 void print_alphabet(void)
 {
 	int i;
+
 	for (i = 'a'; i <= 'z'; i++)
+
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
-	return (0);
-
-
-
-
+	_putchar('\n');
 }
