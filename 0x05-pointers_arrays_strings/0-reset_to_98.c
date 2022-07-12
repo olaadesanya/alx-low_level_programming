@@ -1,10 +1,12 @@
 #include "main.h"
-/*
- * main -pointer that reset the code to 98
- *@n: integer pointer
- * Return: Always 0.
+
+/**
+ * reset_to_98 - function that takes a pointer to an integer parameter
+ * @n: integer pointer
+ * Return: 0 Success
  */
+
 void reset_to_98(int *n)
 {
-    *n = 98;
+	*n = 98;
 }
